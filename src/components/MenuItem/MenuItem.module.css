@@ -1,0 +1,25 @@
+.item {
+  list-style: none;
+}
+
+.link {
+  display: block;
+
+  padding: 10px 0;
+
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #d35400;
+}
+
+@media (max-width: 768px) {
+  .link {
+    padding: 14px 10px;
+  }
+}
