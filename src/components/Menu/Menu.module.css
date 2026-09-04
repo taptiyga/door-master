@@ -1,0 +1,38 @@
+.nav {
+  display: block;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+
+    width: 100%;
+
+    display: none;
+
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .navOpen {
+    display: block;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+
+    padding: 15px 20px;
+  }
+}
